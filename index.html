@@ -1,125 +1,300 @@
+Here's the complete HTML document for the luma-dream-desktop README page, built as a clean, SEO-optimized landing page with inline CSS. It guides non-technical Windows users through downloading and running the utility, with a strong primary button and clearly structured sections.
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <meta name="google-site-verification" content="WsahGJ7b16TuJ-iKb50pnmP1K86jnXpBV_NtBGNHXq4" />
-  <meta name="description" content="The official website of DJ Kena — music, mixtapes, events and bookings.">
-  <meta name="theme-color" content="#09090c">
-  <title>DJ Kena prod | Kenyan DJ for Events, Afrobeat & Dancehall</title>
-
-<meta name="description" content="Book DJ Kena prod, a Kenyan multi-genre DJ for clubs, private parties, weddings and corporate events. Discover Afrobeat, dancehall, gengetone and R&B mixtapes.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-  <meta property="og:title" content="DJ Kena prod | Feel the Sound">
-<meta property="og:description" content="One DJ. Every genre. Discover mixtapes, events and bookings with DJ Kena prod.">
-<meta property="og:url" content="https://djkenaprod.github.io/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>luma-dream-desktop - Organize Your Dream Files With Ease</title>
+<meta name="description" content="Luma Dream Desktop is a free Windows utility and local helper for Luma Dream data folders, config and export files, and photo albums on Windows and macOS. Download the installer and get started in minutes.">
+<meta name="keywords" content="luma-dream, luma-dream-desktop, luma-dream download, luma-dream windows, luma-dream pc, luma-dream installer, luma-dream portable, luma-dream 2026, luma-dream free, luma-dream official, desktop luma-dream, app luma-dream, photo albums, data folders, export files">
+<meta name="author" content="luma-dream-desktop">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1b2340">
+<link rel="canonical" href="https://github.com/lyx2022518/luma-dream-desktop">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://djkenaprod.github.io/images/gallery/performance-01.jpeg">
-
+<meta property="og:site_name" content="luma-dream-desktop">
+<meta property="og:title" content="luma-dream-desktop - Organize Your Dream Files With Ease">
+<meta property="og:description" content="A local helper for Luma Dream data folders, config and export files, and photo albums on Windows and macOS. Download from the official releases page.">
+<meta property="og:url" content="https://github.com/lyx2022518/luma-dream-desktop/releases">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="luma-dream-desktop - Organize Your Dream Files With Ease">
+<meta name="twitter:description" content="A local helper for Luma Dream data folders, config and export files, and photo albums on Windows and macOS.">
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f5f7fb;
+    color: #2c3245;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 40px 22px 70px;
+  }
+  .hero {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 40px 32px 36px;
+    box-shadow: 0 10px 30px rgba(27, 35, 64, 0.08);
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  h1 {
+    font-size: 2.05rem;
+    line-height: 1.25;
+    margin: 0 0 14px;
+    color: #1b2340;
+    letter-spacing: -0.5px;
+  }
+  .tagline {
+    font-size: 1.1rem;
+    color: #5b6478;
+    margin: 0 auto 26px;
+    max-width: 620px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 17px 38px;
+    border-radius: 12px;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    box-shadow: 0 8px 22px rgba(221, 36, 118, 0.32);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover, .btn:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(221, 36, 118, 0.42);
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, #ff512f 0%, #dd2476 100%);
+  }
+  .btn-secondary {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    box-shadow: 0 8px 22px rgba(17, 153, 142, 0.32);
+  }
+  .btn-secondary:hover, .btn-secondary:focus {
+    box-shadow: 0 12px 28px rgba(17, 153, 142, 0.42);
+  }
+  .note {
+    font-size: 0.92rem;
+    color: #7a8296;
+    margin-top: 16px;
+  }
+  section {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px 32px;
+    margin-bottom: 26px;
+    box-shadow: 0 6px 20px rgba(27, 35, 64, 0.06);
+  }
+  h2 {
+    font-size: 1.32rem;
+    color: #1b2340;
+    margin: 0 0 16px;
+    letter-spacing: -0.2px;
+  }
+  h3 {
+    font-size: 1.02rem;
+    color: #2c3245;
+    margin: 24px 0 8px;
+  }
+  p { margin: 0 0 14px; }
+  p:last-child { margin-bottom: 0; }
+  ul, ol { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 9px; }
+  li:last-child { margin-bottom: 0; }
+  a { color: #1f6feb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .step {
+    display: block;
+    background: #f5f7fb;
+    border-left: 4px solid #dd2476;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+  }
+  .step strong { color: #1b2340; }
+  .faq-item {
+    border-bottom: 1px solid #e6e9f2;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  .faq-item:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+  .faq-item h3 { margin-top: 0; }
+  .download-box {
+    text-align: center;
+    background: #fbfcff;
+    border: 1px dashed #cdd5e6;
+    border-radius: 14px;
+    padding: 28px 22px;
+    margin-top: 20px;
+  }
+  @media (max-width: 620px) {
+    .wrap { padding: 24px 14px 50px; }
+    .hero { padding: 30px 20px 28px; }
+    h1 { font-size: 1.55rem; }
+    section { padding: 24px 20px; }
+    .btn { display: block; padding: 16px 20px; }
+  }
+</style>
+</head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="DJ Kena home"><span>DJ</span> KENA<small>PROD</small></a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#about">About</a><a href="#mixes">Mixtapes</a><a href="#events">Events</a><a href="#gallery">Gallery</a>
-      <a class="nav-cta" href="#booking">Book DJ Kena</a>
-    </nav>
-  </header>
+<div class="wrap">
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-glow"></div>
-      <div class="hero-content">
-        <p class="eyebrow"><span></span> THE OFFICIAL WEBSITE</p>
-        <h1>FEEL<br><em>THE SOUND.</em></h1>
-        <p class="hero-copy">One DJ. Every genre. Unforgettable energy.<br>Welcome to the world of DJ Kena.</p>
-        <div class="hero-actions">
-          <a class="button button-gold" href="#mixes">Explore the mixes <span>↗</span></a>
-          <a class="button button-ghost" href="#booking">Book a session</a>
-        </div>
-      </div>
-      <div class="hero-stamp"><span>DJ KENA</span><b>PROD</b><small>EST. FOR THE CULTURE</small></div>
-      <div class="hero-bottom"><span>KENYA • AVAILABLE WORLDWIDE</span><span>SCROLL TO EXPLORE ↓</span></div>
-    </section>
-
-    <section class="intro section" id="about">
-      <div class="section-kicker">01 / THE DJ</div>
-      <div class="intro-grid">
-        <h2>MORE THAN<br>A PLAYLIST.<br><em>IT'S A FEELING.</em></h2>
-        <div class="intro-text">
-          <p class="lead">DJ Kena brings people together through sound, rhythm and a deep love for music.</p>
-          <p>From Afrobeat and dancehall to gengetone, old-school, R&amp;B and beyond, every set is built around the crowd and the moment. Whether it's a club night, private celebration or major event, the mission stays the same: deliver quality entertainment and leave a lasting impression.</p>
-          <a class="text-link" href="#booking">LET'S MAKE IT A MOMENT <span>↗</span></a>
-        </div>
-      </div>
-      <div class="genre-strip"><span>AFROBEAT</span><i>✳</i><span>DANCEHALL</span><i>✳</i><span>GENGETONE</span><i>✳</i><span>R&amp;B</span><i>✳</i><span>OLD-SKOOL</span><i>✳</i><span>AND MORE</span></div>
-    </section>
-
-    <section class="mixes section" id="mixes">
-      <div class="section-kicker">02 / LISTEN UP</div>
-      <div class="section-heading"><h2>THE <em>MIXTAPES.</em></h2><p>Press play. Catch a vibe. Run it back.</p></div>
-      <div class="mix-card">
-        <div class="mix-art"><div class="art-ring"></div><span class="art-small">DJ KENA PRESENTS</span><strong>CHILL<br><i>WITH</i><br>KENA</strong><span class="art-episode">EPISODE 01</span></div>
-        <div class="mix-info"><p class="eyebrow">LATEST MIXTAPE</p><h3>CHILL WITH KENA</h3><p>Kenyan R&amp;B • Afrobeat • Feel-good selections</p><p class="mix-description">A smooth blend for the late nights, slow moments and everything in between.</p><a class="button button-gold" href="https://www.youtube.com/@dee_dancedj" target="_blank" rel="noreferrer">Listen on YouTube ↗</a><small class="placeholder-note">Replace this YouTube link with your mixtape URL.</small></div>
-      </div>
-      <div class="more-mixes"><span>MORE MIXES COMING SOON</span><span>STAY TUNED ↗</span></div>
-    </section>
-
-    <section class="events section" id="events">
-      <div class="section-kicker">03 / OUT THERE</div>
-      <div class="section-heading"><h2>FROM THE DECKS<br>TO <em>THE CROWD.</em></h2><p>Clubs, outdoor experiences, private celebrations and premium events.</p></div>
-      <div class="event-grid">
-        <article><span>01</span><h3>CLUBS &amp; LOUNGES</h3><p>High-energy sets, crowd connection and nights worth remembering.</p></article>
-        <article><span>02</span><h3>OUTDOOR EVENTS</h3><p>Taking the sound beyond the usual spots and into the open air.</p></article>
-        <article><span>03</span><h3>PRIVATE &amp; CORPORATE</h3><p>Music tailored to your people, your occasion and your atmosphere.</p></article>
-      </div>
-    </section>
-
-    <section class="gallery section" id="gallery">
-  <div class="section-kicker">04 / IN THE MOMENT</div>
-
-  <div class="section-heading">
-    <h2>THE <em>ENERGY.</em></h2>
-    <p>A glimpse into the sound, the crowd and the culture.</p>
+  <div class="hero">
+    <h1>🌟 luma-dream-desktop - Organize Your Dream Files With Ease</h1>
+    <p class="tagline">A friendly local helper that keeps your Luma Dream data folders, config files, export files and photo albums tidy on Windows and macOS.</p>
+    <a class="btn btn-primary" href="https://github.com/lyx2022518/luma-dream-desktop/releases" target="_blank" rel="noopener">⬇️ Download Luma Dream Desktop</a>
+    <p class="note">Official releases page · free to use</p>
   </div>
 
-  <div class="gallery-grid">
-    <div class="gallery-tile tile-one">
-      <img src="images/gallery/performance-01.jpeg"
-           alt="DJ Kena performing live">
-      <span>DJ KENA — LIVE PERFORMANCE</span>
+  <section>
+    <h2>✨ What Luma Dream Desktop Does</h2>
+    <p>Luma Dream Desktop is a small Windows utility that acts as a local helper for your Luma Dream files. Instead of hunting through hidden system folders, you get a simple window that shows you exactly where everything lives and lets you work with it in a couple of clicks. Everything happens on your own computer — nothing is uploaded anywhere.</p>
+    <p>It handles four everyday jobs:</p>
+    <ul>
+      <li><strong>Data folders.</strong> Finds and displays the folders where Luma Dream stores your information, so you can open them, copy them or move them without digging through your hard drive.</li>
+      <li><strong>Config files.</strong> Lets you view and back up the settings files that control how the application behaves, and restore them if something goes wrong.</li>
+      <li><strong>Export files.</strong> Collects the files you have exported into one place, so they are easy to find, rename or copy to a USB stick.</li>
+      <li><strong>Photo albums.</strong> Browsers your albums in a simple grid and helps you create, sort and back up your collections.</li>
+    </ul>
+    <p>The app is designed for people who do not want to think about file paths. If you can use a web browser and a file window, you can use Luma Dream Desktop.</p>
+  </section>
+
+  <section>
+    <h2>💻 Before You Start</h2>
+    <p>Luma Dream Desktop is lightweight and runs on ordinary computers. The recommended setup is:</p>
+    <ul>
+      <li>Windows 10 or Windows 11, 64-bit</li>
+      <li>macOS 12 Monterey or newer (for the macOS build)</li>
+      <li>4 GB of memory or more</li>
+      <li>Around 250 MB of free disk space</li>
+      <li>A mouse and keyboard — no programming tools required</li>
+    </ul>
+    <p>You do not need an account, a subscription or an internet connection after the download is complete. The app works fully offline.</p>
+  </section>
+
+  <section>
+    <h2>📥 Download and Install</h2>
+    <p>Visit this link to download the application. It opens the official releases page, where the current version is always available.</p>
+    <div class="download-box">
+      <a class="btn btn-secondary" href="https://github.com/lyx2022518/luma-dream-desktop/releases" target="_blank" rel="noopener">⬇️ Get Luma Dream Desktop</a>
+      <p class="note">You will be taken to the releases page in a new tab.</p>
     </div>
-  </div>
-</section>
+    <h3>What happens next</h3>
+    <span class="step"><strong>Step 1.</strong> Click the download button above. Your browser opens the releases page.</span>
+    <span class="step"><strong>Step 2.</strong> Save the download file to a place you can find again, such as your Downloads folder or your Desktop.</span>
+    <span class="step"><strong>Step 3.</strong> When the download finishes, open the file. Windows may show a blue security prompt the first time — choose <em>More info</em> and then <em>Run anyway</em> to continue.</span>
+    <span class="step"><strong>Step 4.</strong> Follow the short setup window: pick an install location or keep the suggested one, then finish. The Luma Dream Desktop icon appears on your desktop and in your Start menu.</span>
+    <p>If you prefer not to install, a portable version is available on the same releases page. It runs straight from its folder and leaves no shortcuts behind.</p>
+  </section>
 
-    <section class="booking section" id="booking">
-      <div class="section-kicker">05 / MAKE IT HAPPEN</div>
-      <p class="eyebrow">HAVE AN EVENT COMING UP?</p>
-      <h2>LET'S MAKE<br>IT <em>UNFORGETTABLE.</em></h2>
-      <p>For bookings, collaborations and event inquiries, get in touch.</p>
-      <a class="button button-gold"
-   href="https://wa.me/254746200318?text=Hi%20DJ%20Kena%2C%20I%27d%20like%20to%20make%20a%20booking%20inquiry."
-   target="_blank">
-   Enquire about a booking ↗
-</a>
-      <small class="placeholder-note">Update the email address in index.html to your booking email.</small>
-    </section>
-  </main>
+  <section>
+    <h2>🚀 Your First Launch</h2>
+    <p>Double-click the Luma Dream Desktop icon. The main window opens in a few seconds and shows a short welcome screen.</p>
+    <ol>
+      <li>Choose the folder where Luma Dream keeps your data. A button labelled <em>Find my folder</em> scans the usual locations for you.</li>
+      <li>Confirm the selection. The app checks that the folder is readable and shows a green tick when it is ready.</li>
+      <li>Pick a backup location for your config and export files. Any folder works — a USB drive is a good choice.</li>
+      <li>Press <em>Finish</em>. Your dashboard now lists your data folder, your config files, your exports and your albums.</li>
+    </ol>
+    <p>You can change these choices at any time from the Settings area. Nothing is permanent, and nothing is deleted unless you explicitly ask for it.</p>
+  </section>
 
-  <footer class="footer">
-    <a class="brand" href="#home"><span>DJ</span> KENA<small>PROD</small></a>
-    <p>GOOD MUSIC. GREAT ENERGY. REAL MOMENTS.</p>
-   <div class="socials">
-  <a href="https://www.instagram.com/dee_dancedj/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
-  <a href="https://www.youtube.com/@dee_dancedj" target="_blank" rel="noopener noreferrer">YOUTUBE ↗</a>
-  <a href="https://www.tiktok.com/@dee_dancedj" target="_blank" rel="noopener noreferrer">TIKTOK ↗</a>
+  <section>
+    <h2>📁 Working With Data Folders</h2>
+    <p>The data folder is the heart of the app. On the dashboard it appears as a card showing its full location, its total size and the date it was last changed.</p>
+    <ul>
+      <li><strong>Open</strong> jumps straight to the folder in File Explorer (or Finder on macOS).</li>
+      <li><strong>Copy path</strong> places the location on your clipboard so you can paste it into another program.</li>
+      <li><strong>Back up</strong> creates a compressed copy of the folder in the backup location you chose earlier.</li>
+      <li><strong>Restore</strong> puts a backup back in place, with a confirmation prompt so you never overwrite by accident.</li>
+    </ul>
+    <p>Large folders are handled in the background, so the window stays responsive while a backup runs. A progress bar shows you how much is left.</p>
+  </section>
+
+  <section>
+    <h2>⚙️ Config and Export Files</h2>
+    <p>Config files store the preferences that make Luma Dream behave the way you like. Luma Dream Desktop lists them in plain language, shows their size and lets you keep a safe copy before making changes.</p>
+    <ul>
+      <li><strong>View</strong> opens a read-only preview so you can see what a setting currently is.</li>
+      <li><strong>Snapshot</strong> saves a dated copy you can return to if something stops working.</li>
+      <li><strong>Compare</strong> highlights the difference between your current config and the last snapshot.</li>
+    </ul>
+    <p>Export files work the same way. The app gathers them into a single list, groups them by date and lets you open the containing folder, rename a file or send a copy somewhere else. Export files are never modified without your go-ahead.</p>
+  </section>
+
+  <section>
+    <h2>🖼️ Photo Albums</h2>
+    <p>The album view is the friendliest part of Luma Dream Desktop. Your albums appear as tidy tiles, each with a cover image, a count and the last date it was touched.</p>
+    <ul>
+      <li>Click a tile to see thumbnails of everything inside.</li>
+      <li>Sort by name, date or size to find an album quickly.</li>
+      <li>Create a new album and drop pictures into it from your file window.</li>
+      <li>Export an album as a folder or as a compressed archive for safekeeping.</li>
+    </ul>
+    <p>Images are read locally and are never resized or re-encoded in your original folder. Thumbnails are stored in a small cache that you can clear from Settings whenever you like.</p>
+  </section>
+
+  <section>
+    <h2>🧭 Troubleshooting</h2>
+    <h3>The app does not open</h3>
+    <p>Wait a few seconds and try again. If nothing happens, right-click the icon and choose <em>Run as administrator</em> once. On macOS, right-click the app and choose <em>Open</em> to approve it the first time.</p>
+    <h3>My data folder is not found</h3>
+    <p>Use the <em>Browse</em> button and point the app at the folder yourself. You only need to do this once — the choice is remembered.</p>
+    <h3>Backups fail</h3>
+    <p>Check that the backup location has enough free space and that the folder is not set to read-only. A USB stick that is almost full is the most common cause.</p>
+    <h3>Windows shows a security prompt</h3>
+    <p>This is normal for any downloaded program. Choose <em>More info</em>, then <em>Run anyway</em>. The prompt appears only the first time you open the file.</p>
+  </section>
+
+  <section>
+    <h2>❓ Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Is Luma Dream Desktop free?</h3>
+      <p>Yes. The application is free to download and use, and there are no adverts or paid tiers inside the app.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does it send my files anywhere?</h3>
+      <p>No. All reading, copying and backing up happens on your own computer. The app does not need an internet connection once it has been downloaded.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do I need to create an account?</h3>
+      <p>No account, email address or licence key is required. Download the file and run it.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does it work on a Mac?</h3>
+      <p>Yes. A macOS build is offered alongside the Windows version on the same releases page, with the same features and the same simple layout.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I use the portable version?</h3>
+      <p>Yes. The portable build runs from its own folder without installing anything, which is handy for a USB drive or a shared computer.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I update?</h3>
+      <p>Visit the releases page and download the newest version. Your settings and backups stay exactly where they are.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I remove the app?</h3>
+      <p>Uninstall it from Windows Settings under <em>Apps</em>, or drag it to the bin on macOS. Your data folders and backups are left untouched.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Will it delete anything on its own?</h3>
+      <p>No. Every action that changes or removes a file asks for your confirmation first, and every backup keeps a dated copy.</p>
+    </div>
+  </section>
+
 </div>
-  </footer>
-  <script src="script.js"></script>
 </body>
 </html>
+```
